@@ -1,0 +1,6 @@
+__pycache__/
+build/
+dist/
+*.pyc
+PROJECT_BRIEF.md
+BUILD_NOTES_v2.md
