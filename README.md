@@ -226,7 +226,7 @@ list and tells you which setting to change.
 ## Rebuilding
 
 ```bash
-python -m PyInstaller --onefile --windowed --icon "C:/Users/Sunny/Desktop/claude code/15 - site-deploy/icon.ico" --name "SiteDeploy" --distpath dist --workpath build --specpath build main.py
+python -m PyInstaller --onefile --windowed --icon "icon.ico" --name "SiteDeploy" --distpath dist --workpath build --specpath build main.py
 "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer.iss
 ```
 
